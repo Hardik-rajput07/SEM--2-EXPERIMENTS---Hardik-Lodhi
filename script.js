@@ -3,10 +3,13 @@
 // FOR LOOP
 
 document.write("<h1>FOR LOOP</h1>")
-for (let count = 0; count < 6; count++) {
+for (var count = 0; count < 6; count++) {
     console.log(count);
     document.write("Current Count: " + count + "</br>");
 }
+
+
+document.write("</br>");
 
 
 // FOR IN LOOP
@@ -26,4 +29,15 @@ for(let x in person){
 }
 
 
+document.write("</br>");
 
+
+// WHILE LOOP
+
+document.write("<h1>WHILE LOOP</h1>")
+var count = 0;
+while (count < 6) {
+    console.log(count);
+    document.write("Current Count: " + count + "</br>");
+    count++;
+}
