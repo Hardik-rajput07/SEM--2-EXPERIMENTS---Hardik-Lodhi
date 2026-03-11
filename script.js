@@ -1,13 +1,11 @@
 "use strict"
 
-function btnClicked() {
-    window.alert("YOU CLICKED THE BUTTON !!!");
-    console.log("Clicked Button!");
+// OBJECT
+
+let person = {
+    name : "Rohan das",
+    age : 20,
+    gender : "Male"
 }
 
-
-// ARROW FUNCTION is an Anonymous Function
-
-var myFunc = () =>{
-    console.log("Hello");
-}
+console.log(person);
