@@ -1,23 +1,9 @@
-// Primitive DataTypes
-let x;
-console.log("X = ", x, "\t| TypeOf X: ", typeof(x));    // Undefined
+"use strict"
 
-x = 69;
-console.log("X = ", x, "\t| TypeOf X: ", typeof(x));    // Number
+// FOR LOOP
 
-x = "Hello JS";
-console.log("X = ", x, "\t| TypeOf X: ", typeof(x));    // String
-
-x = true;
-console.log("X = ", x, "\t| TypeOf X: ", typeof(x));    // Boolean
-
-x = null;
-console.log("X = ", x, "\t| TypeOf X: ", typeof(x));    // Null
-
-
-let sym1 = Symbol(4);
-let sym2 = Symbol(4);
-
-console.log(sym1, sym2)
-
-(sym1 == sym2) ? console.log("Same") : console.log("Not Equal Symbol")
+document.write("<h1>FOR LOOP</h1></br>")
+for (let count = 0; count < 6; count++) {
+    console.log(count);
+    document.write("Current Count: " + count + "</br>");
+}
