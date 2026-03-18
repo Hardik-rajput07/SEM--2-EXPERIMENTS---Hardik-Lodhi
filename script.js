@@ -1,21 +1,8 @@
 "use strict"
 
-// OBJECT
+let myinfo = new Array();
+let myinfo1 = Array();
 
-let person = {
-    name: "Rohan das",
-    age: 20,
-    gender: "Male"
-}
-
-console.log(person);
-
-
-
-let person2 = new Object();
-person2.name = "Shyam Singh";
-person2['age'] = 34;
-person2.gender = "Male";
-
-console.log(person2);
+console.log(myinfo)
+console.log(myinfo1)
 
