@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Main Javascript Tutorial File</title>
     <style>
-        #container{
+        #container, #buttons{
             background-color: powderblue;
             padding: 2rem;
             display: flex;
@@ -18,6 +18,14 @@
         .box{
             width: 1.5rem;
             height: 1.5rem;
+            background-color: crimson;
+            border: 2px solid yellow;
+        }
+        .btn{
+            padding: 1rem 1.3rem;
+            background-color: chartreuse;
+            color: darkgreen;
+            border: 2px solid yellow;
         }
     </style>
 </head>
@@ -30,7 +38,14 @@
         <div class="box"></div>
         <div class="box"></div>
     </div>
-
+    <div id="buttons">
+        <button onclick="onclick()" class="btn">Single Click</button>
+        <button ondblclick="ondblclick()" class="btn">Double Click</button>
+        <button onmousedown="onmousedown()" class="btn">Mouse Down</button>
+        <button onmouseup="onmouseup()" class="btn">Mouse Up</button>
+        <button onmouseover="onmouseover()" class="btn">Mouse Over</button>
+        <button onmouseout="onmouseout()" class="btn">Mouse Out</button>
+    </div>
     <!-- <script src="./script.js"></script> -->
     <script src="./DOM.js"></script>
 </body>
