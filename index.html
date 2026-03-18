@@ -6,25 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Main Javascript Tutorial File</title>
     <style>
-        .btn{
-            padding: 8px 13px;
-            background-color: crimson;
-            color: white;
-            border: 3px solid brown;
-            border-radius: 3px;
+        #container{
+            background-color: powderblue;
+            padding: 2rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
         }
 
-        .btn:hover, .btn:active{
-            background-color: red;
-            cursor: pointer;
+        .box{
+            width: 1.5rem;
+            height: 1.5rem;
         }
-        
     </style>
 </head>
 
 <body>
-      <button class="btn" onclick="btnClicked()">Click Me</button>
-    <script src="./script.js"></script>
+    <div id="container">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+
+    <!-- <script src="./script.js"></script> -->
     <script src="./DOM.js"></script>
 </body>
 
